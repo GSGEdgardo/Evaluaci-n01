@@ -13,6 +13,8 @@
 <body>
     <div class="container mx-auto my-5">
         <div class="row">
+            <!-- Este div a continuación tiene una "card" o tarjeta que tendrá el header con "Lista de productos" como texot
+            y luego en el body irá toda la información solicitada, la cual será puesta como una lista-->
             <div class="card">
                 <h5 class="card-header">Lista de Productos</h5>
                 <div class="card-body">
@@ -28,6 +30,16 @@
         </div>
 
         <br>
+
+        <!-- El br de arriba es solo para un salto de línea en la página porque no me gustaba que estuviera todo como 
+            pegado de alguna forma. 
+        
+            La forma en que los productos están desplegadas como listas, fue traer un componente de columna, el cual contiene en
+            cada fila de la columna 4 productos diferentes, entonces se llama este container, se colocan 4 componentes "col"
+            y luego se llama una "card" que contiene tanto la imagen del producto, como su nombre, una descripción, su precio y un
+            botón de "ver detalles" (el cual no es funcional).
+        
+            Para cada "línea" de la página hay un total de 4 columnas con productos.--> 
         <div class="container text-center">
             <div class="row align-items-start">
                 <div class="col">
